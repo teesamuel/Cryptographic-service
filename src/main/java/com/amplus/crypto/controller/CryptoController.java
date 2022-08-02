@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/api/crypto")
+@RequestMapping("/api/v1/crypto")
 public class CryptoController {
 
     @Autowired

@@ -41,3 +41,117 @@ Consider defining a bean of type 'com.amplus.crypto.service.CryptoService' in yo
 2022-08-02 15:32:46.583  INFO 11732 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-08-02 15:32:46.585  INFO 11732 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2022-08-02 15:35:00.648  INFO 11732 --- [http-nio-9876-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 166 ms
+2022-08-02 17:33:30.040  INFO 12263 --- [main] com.amplus.crypto.CryptoApplication      : Starting CryptoApplication using Java 17.0.1 on MacBook-Pro-5.local with PID 12263 (/Users/mac/Downloads/crypto/target/classes started by mac in /Users/mac/Downloads/crypto)
+2022-08-02 17:33:30.044  INFO 12263 --- [main] com.amplus.crypto.CryptoApplication      : The following 1 profile is active: "dev"
+2022-08-02 17:33:31.354  INFO 12263 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9876 (http)
+2022-08-02 17:33:31.364  INFO 12263 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-02 17:33:31.364  INFO 12263 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-02 17:33:31.444  INFO 12263 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-02 17:33:31.444  INFO 12263 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1264 ms
+2022-08-02 17:33:32.219  INFO 12263 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9876 (http) with context path ''
+2022-08-02 17:33:32.227  INFO 12263 --- [main] com.amplus.crypto.CryptoApplication      : Started CryptoApplication in 2.942 seconds (JVM running for 3.463)
+2022-08-02 17:35:16.181  INFO 12263 --- [http-nio-9876-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-02 17:35:16.182  INFO 12263 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-02 17:35:16.183  INFO 12263 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-02 17:35:16.765  INFO 12263 --- [http-nio-9876-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 218 ms
+2022-08-02 17:36:12.484  INFO 12316 --- [main] com.amplus.crypto.CryptoApplication      : Starting CryptoApplication using Java 17.0.1 on MacBook-Pro-5.local with PID 12316 (/Users/mac/Downloads/crypto/target/classes started by mac in /Users/mac/Downloads/crypto)
+2022-08-02 17:36:12.488  INFO 12316 --- [main] com.amplus.crypto.CryptoApplication      : The following 1 profile is active: "dev"
+2022-08-02 17:36:13.645  INFO 12316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9876 (http)
+2022-08-02 17:36:13.657  INFO 12316 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-02 17:36:13.657  INFO 12316 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-02 17:36:13.746  INFO 12316 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-02 17:36:13.747  INFO 12316 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1196 ms
+2022-08-02 17:36:14.531  INFO 12316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9876 (http) with context path ''
+2022-08-02 17:36:14.546  INFO 12316 --- [main] com.amplus.crypto.CryptoApplication      : Started CryptoApplication in 2.615 seconds (JVM running for 2.974)
+2022-08-02 17:36:17.511  INFO 12316 --- [http-nio-9876-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-02 17:36:17.511  INFO 12316 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-02 17:36:17.513  INFO 12316 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-02 17:36:42.918  INFO 12326 --- [main] com.amplus.crypto.CryptoApplication      : Starting CryptoApplication using Java 17.0.1 on MacBook-Pro-5.local with PID 12326 (/Users/mac/Downloads/crypto/target/classes started by mac in /Users/mac/Downloads/crypto)
+2022-08-02 17:36:42.921  INFO 12326 --- [main] com.amplus.crypto.CryptoApplication      : The following 1 profile is active: "dev"
+2022-08-02 17:36:44.157  INFO 12326 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9876 (http)
+2022-08-02 17:36:44.169  INFO 12326 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-02 17:36:44.169  INFO 12326 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-02 17:36:44.256  INFO 12326 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-02 17:36:44.257  INFO 12326 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1282 ms
+2022-08-02 17:36:45.100  INFO 12326 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9876 (http) with context path ''
+2022-08-02 17:36:45.112  INFO 12326 --- [main] com.amplus.crypto.CryptoApplication      : Started CryptoApplication in 2.596 seconds (JVM running for 2.992)
+2022-08-02 17:36:46.062  INFO 12326 --- [http-nio-9876-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-02 17:36:46.063  INFO 12326 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-02 17:36:46.066  INFO 12326 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-08-02 17:36:50.186  INFO 12326 --- [http-nio-9876-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 209 ms
+2022-08-02 17:37:11.053  WARN 12326 --- [http-nio-9876-exec-5] javax.persistence.spi                    : javax.persistence.spi::No valid providers found.
+2022-08-02 17:37:11.089  INFO 12326 --- [http-nio-9876-exec-5] com.amplus.crypto.service.CryptoService  : config begin with error
+2022-08-02 17:37:11.091  INFO 12326 --- [http-nio-9876-exec-5] com.amplus.crypto.service.CryptoService  : null
+2022-08-02 17:37:11.099 ERROR 12326 --- [http-nio-9876-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3] with root cause
+
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at com.amplus.crypto.service.ResponseUtility.response(ResponseUtility.java:26) ~[classes/:na]
+	at com.amplus.crypto.service.CryptoService.encrypt(CryptoService.java:101) ~[classes/:na]
+	at com.amplus.crypto.controller.CryptoController.paymentInitiate(CryptoController.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-08-02 17:38:36.023  INFO 12359 --- [main] com.amplus.crypto.CryptoApplication      : Starting CryptoApplication using Java 17.0.1 on MacBook-Pro-5.local with PID 12359 (/Users/mac/Downloads/crypto/target/classes started by mac in /Users/mac/Downloads/crypto)
+2022-08-02 17:38:36.025  INFO 12359 --- [main] com.amplus.crypto.CryptoApplication      : The following 1 profile is active: "dev"
+2022-08-02 17:38:37.132  INFO 12359 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9876 (http)
+2022-08-02 17:38:37.143  INFO 12359 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-02 17:38:37.143  INFO 12359 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-02 17:38:37.221  INFO 12359 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-02 17:38:37.221  INFO 12359 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1148 ms
+2022-08-02 17:38:38.059  INFO 12359 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9876 (http) with context path ''
+2022-08-02 17:38:38.067  INFO 12359 --- [main] com.amplus.crypto.CryptoApplication      : Started CryptoApplication in 2.589 seconds (JVM running for 2.987)
+2022-08-02 17:38:40.343  INFO 12359 --- [http-nio-9876-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-02 17:38:40.343  INFO 12359 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-02 17:38:40.344  INFO 12359 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-02 17:38:40.750  INFO 12359 --- [http-nio-9876-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 214 ms
+2022-08-02 17:38:47.680  WARN 12359 --- [http-nio-9876-exec-4] javax.persistence.spi                    : javax.persistence.spi::No valid providers found.
+2022-08-02 17:38:47.702  INFO 12359 --- [http-nio-9876-exec-4] com.amplus.crypto.service.CryptoService  : config begin with error
+2022-08-02 17:38:47.704  INFO 12359 --- [http-nio-9876-exec-4] com.amplus.crypto.service.CryptoService  : null
