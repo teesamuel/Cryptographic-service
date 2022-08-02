@@ -1,0 +1,43 @@
+2022-08-02 15:31:41.523  INFO 11724 --- [main] com.amplus.crypto.CryptoApplication      : Starting CryptoApplication using Java 17.0.1 on MacBook-Pro-5.local with PID 11724 (/Users/mac/Downloads/crypto/target/classes started by mac in /Users/mac/Downloads/crypto)
+2022-08-02 15:31:41.528  INFO 11724 --- [main] com.amplus.crypto.CryptoApplication      : The following 1 profile is active: "dev"
+2022-08-02 15:31:42.700  INFO 11724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9876 (http)
+2022-08-02 15:31:42.713  INFO 11724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-02 15:31:42.713  INFO 11724 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-02 15:31:42.827  INFO 11724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-02 15:31:42.827  INFO 11724 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1229 ms
+2022-08-02 15:31:42.909  WARN 11724 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cryptoController': Unsatisfied dependency expressed through field 'cryptoService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.amplus.crypto.service.CryptoService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-08-02 15:31:42.913  INFO 11724 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-02 15:31:42.924  INFO 11724 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-02 15:31:42.946 ERROR 11724 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cryptoService in com.amplus.crypto.controller.CryptoController required a bean of type 'com.amplus.crypto.service.CryptoService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.amplus.crypto.service.CryptoService' in your configuration.
+
+2022-08-02 15:32:15.155  INFO 11732 --- [main] com.amplus.crypto.CryptoApplication      : Starting CryptoApplication using Java 17.0.1 on MacBook-Pro-5.local with PID 11732 (/Users/mac/Downloads/crypto/target/classes started by mac in /Users/mac/Downloads/crypto)
+2022-08-02 15:32:15.159  INFO 11732 --- [main] com.amplus.crypto.CryptoApplication      : The following 1 profile is active: "dev"
+2022-08-02 15:32:16.174  INFO 11732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9876 (http)
+2022-08-02 15:32:16.184  INFO 11732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-02 15:32:16.185  INFO 11732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-02 15:32:16.262  INFO 11732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-02 15:32:16.262  INFO 11732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1044 ms
+2022-08-02 15:32:17.267  INFO 11732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9876 (http) with context path ''
+2022-08-02 15:32:17.284  INFO 11732 --- [main] com.amplus.crypto.CryptoApplication      : Started CryptoApplication in 2.566 seconds (JVM running for 2.949)
+2022-08-02 15:32:46.582  INFO 11732 --- [http-nio-9876-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-02 15:32:46.583  INFO 11732 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-02 15:32:46.585  INFO 11732 --- [http-nio-9876-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-08-02 15:35:00.648  INFO 11732 --- [http-nio-9876-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 166 ms
